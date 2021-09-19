@@ -1,14 +1,6 @@
 
 작성일자: 2019.09.23
 
-### 프로젝트 빌드
-1. eclipse > file > import
-2. maven > Existing Maven Projects
-3. kakaopay 프로젝트 선택 후 finish
-4. 실행버튼 > Run As > Spring Boot App
-
-
-### 문제해결 전략
 Program Language : Java
 Framework : String Boot(Rest Api, JPA 기반)
 Database : mysql
@@ -28,10 +20,3 @@ Test Tool : Junit
 1. Device(Device_id,Device_name)
 2. InternetBankingUse(Year, Device_id,Device_name, Rate, Total_Rate)
 2. User(Username, Password)
-
-# 데이터 구성
-1. 프로젝트 내 Data 디렉토리 하위에 2019년하반기_서버개발자_데이터.scv 파일 로딩
-
-### 단위 테스트
-JUNIT을 통한 테스트 진행.(/src/test/java)
-
